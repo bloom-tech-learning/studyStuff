@@ -1,7 +1,5 @@
-# hello-world
-
 # Hello Web48
-## Fork and clone this repo. When you need to commit use the following commands.
+### Fork and clone this repo. When you need to commit use the following commands.
 ```sh
 git status
 git add --all
