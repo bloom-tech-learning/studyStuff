@@ -1,7 +1,5 @@
-# Hello Web48
-
-### Fork and clone this repo. Use the following commands to commit.
-
+# Hello Web48 - Full Stack Web Development
+## Fork and clone this repo. When you need to commit use the following commands.
 ```sh
 git status
 git add --all
