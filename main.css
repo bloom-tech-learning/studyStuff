@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
- 
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,77 +45,5 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-} 
+}
 
-*/
- 
- body{
-    border: 20px solid #00CED1;
-    font-size:20px;
-    color:#2F4F4F;
-  }
-
-  div.container{
-    width:80%;
-    margin:0 auto;
-  }
-  
-  h1{
-    color:#778899;
-    text-align:center;
-  }
-
-  h1:hover{
-    color:#BC8F8F;
-  }
-      
-  div.info{
-    background-color:#7FFFD4;
-    border: 1px solid red;
-    padding:3%;
-  }
- 
-  div.info:hover {
-    background-color:#DEB887;
-  }
-
-  .first-section{
-    color:#00CED1;
-    background-color:#2F4F4F;
-    padding:10%;
-  }
- 
-  .first-section:hover{
-    color:#FFA07A;
-    background-color:#696969;
-  }
-   
-  .second-section{
-    line-height:1.5;
-    letter-spacing:2px;
-  }
-
-  .second-section:hover{
-    color:#FF8C00;
-  }
-  
-  .second-section h2{
-    color:#778899;
-    text-transform:uppercase;
-  }
-  
-  .second-section h2:hover{
-    color:#FF8C00;
-    text-transform:capitalize;
-  }
-  
-  .gallery{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding:10% 0;
-  }
-   
-  .gallery img:hover{
-    border:10px dotted #DC143C;
-  } 
