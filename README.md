@@ -4,8 +4,8 @@
 git status
 git add --all
 git status
-git commit -m "your commit message"
-git push origin master
+git commit -m "doc"
+git push -u origin master
 ```
 
 ## How to set up GIT SSH
