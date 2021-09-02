@@ -10,3 +10,6 @@
 [submodule "mastering-emacs-in-one-year-guide"]
 	path = mastering-emacs-in-one-year-guide
 	url = git@github.com:redguardtoo/mastering-emacs-in-one-year-guide.git
+[submodule "FullStackWeb"]
+	path = FullStackWeb
+	url = git@github.com:sooof/FullStackWeb.git
