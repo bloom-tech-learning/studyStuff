@@ -36,3 +36,9 @@ git add .
 git commit -m ''
 git push -u origin master
 ```
+### Usefull branch command
+```sh
+git checkout -b first-last
+git branch
+
+```
