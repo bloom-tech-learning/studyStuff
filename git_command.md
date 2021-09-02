@@ -41,6 +41,10 @@ git checkout -b first-last
 
 git branch
 
+git branch -d localBranchName
+
+git push origin --delete remoteBranchName
+
 git branch --r -l
 
 ```
