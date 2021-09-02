@@ -38,6 +38,9 @@ git push -u origin master
 ### Usefull branch command
 ```sh
 git checkout -b first-last
+
 git branch
+
+git branch --r -l
 
 ```
