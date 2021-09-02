@@ -27,3 +27,12 @@ pbcopy < ~/.ssh/id_ed25519.pub
 ```sh
 ssh -T git@github.com
 ```
+
+### How to submodoule on github
+```sh
+git submodule add git@github.com:beatlesm/web48.git
+
+git add .
+git commit -m ''
+git push -u origin master
+```
