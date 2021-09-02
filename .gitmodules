@@ -16,3 +16,9 @@
 [submodule "Module_4/User-Interface-II"]
 	path = Module_4/User-Interface-II
 	url = git@github.com:LambdaSchool/User-Interface-II.git
+[submodule "Tools/mastering-emacs-in-one-year-guide"]
+	path = Tools/mastering-emacs-in-one-year-guide
+	url = git@github.com:redguardtoo/mastering-emacs-in-one-year-guide.git
+[submodule "References/FullStackWeb"]
+	path = References/FullStackWeb
+	url = git@github.com:sooof/FullStackWeb.git
