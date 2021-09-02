@@ -1,3 +1,6 @@
 [submodule "JavaScript30"]
 	path = JavaScript30
 	url = git@github.com:wesbos/JavaScript30.git
+[submodule "Module_3/web-module-project-intro-css"]
+	path = Module_3/web-module-project-intro-css
+	url = git@github.com:LambdaSchool/web-module-project-intro-css.git
