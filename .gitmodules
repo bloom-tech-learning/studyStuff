@@ -13,3 +13,6 @@
 [submodule "FullStackWeb"]
 	path = FullStackWeb
 	url = git@github.com:sooof/FullStackWeb.git
+[submodule "Module_4/User-Interface-II"]
+	path = Module_4/User-Interface-II
+	url = git@github.com:LambdaSchool/User-Interface-II.git
