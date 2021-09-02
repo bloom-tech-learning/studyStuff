@@ -7,3 +7,6 @@
 [submodule "Module_2/Git-for-Web-Development-Project"]
 	path = Module_2/Git-for-Web-Development-Project
 	url = git@github.com:LambdaSchool/Git-for-Web-Development-Project.git
+[submodule "mastering-emacs-in-one-year-guide"]
+	path = mastering-emacs-in-one-year-guide
+	url = git@github.com:redguardtoo/mastering-emacs-in-one-year-guide.git
