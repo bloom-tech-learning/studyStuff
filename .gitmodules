@@ -43,3 +43,6 @@
 [submodule "Module_114/User-Interface-II"]
 	path = Module_114/User-Interface-II
 	url = git@github.com:beatlesm/User-Interface-II.git
+[submodule "Module_112/Git-for-Web-Development-Project"]
+	path = Module_112/Git-for-Web-Development-Project
+	url = git@github.com:LambdaSchool/Git-for-Web-Development-Project.git
