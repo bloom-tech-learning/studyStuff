@@ -1,76 +1,3 @@
-/* CSS RESET */
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-	}
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cell spacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
-*{
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	max-width: 100%;
-	/* border: 1px solid red; */
-}
-/* General styles */
-html{
-	font-size: 62.5%;
-}
-body {
-	font-size: 1.6rem;
-	line-height: 1.5;
-	color: #4f4f4f;
-	font-family: 'Roboto Mono', monospace;
-	/* background-color: #DDB9A3; */
-}
-
-h1 {
-	font-family: 'Chelsea Market', cursive;
-	font-size: 5rem;
-}
-
-a {
-	font-family: 'Roboto Mono', monospace;
-}
-span {
-	font-weight: bold;
-}
-section {
-	padding: 4% 0;
-}
-
-/* Add CSS styling here */
-
 /*CSS Reset*/
 *{
     box-sizing: border-box;
@@ -145,7 +72,7 @@ header nav{
 /*Top Section Styles*/
 #top{
     height:85vh;
-    background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/header.jpg?raw=true');
+    background-image:url('https://unsplash.com/photos/CmOIh6MuKJI');
     margin-top:5%;
     background-size:cover;
     background-repeat:no-repeat;
@@ -156,29 +83,58 @@ header nav{
 }
 
 /*Farm Section Styles*/
+.container{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-around;
+}
+.box{
+    width:20%;
+    border:3px solid #4f4f4f;
+    text-align:center;
+    padding:4%;
+    background-color:#fff;
+}
+.box h3{
+    margin: 15% 0;
+}
 
 /*blank section styles*/
 
-/* .hero-image{
+.hero-image{
     height:40vh;
     background-image:url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/dirt.jpg?raw=true');
     background-size:cover;
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-} */
+}
 
 /*About Section Styles*/
+#about{
+    display:flex;
+    justify-content:center;
+}
+.text{
+    width:60%;
+    border: 3px solid #4f4f4f;
+    background-color:#fff;
+    text-align:center;
+    padding:4%;
+}
+.text p{
+    text-align:left;
+}
 
 /*Gallery Section Styles*/
 
 .gallery{
     display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    justify-content:space-around;
 }
 .gallery div{
-    width:30%;
+    width:40%;
     height:40vh;
     margin:4% 0;
     background-size:cover;
@@ -212,28 +168,68 @@ header nav{
     background-image: url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/sheep.jpg?raw=true');
 }
 
+/*Contact Section Styles*/
+#contact{
+  display:flex;
+  flex-wrap:wrap;
+}
+#contact h2{
+    width:100%;
+}
+.left, .right{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:4% 0;
+}
+.contact-info{
+    width:35%;
+    line-height:2;
+}
+.contact-info h3{
+    text-align:left;
+}
+.img-container{
+    width:70%;
+}
 
 /*Footer Section Styles*/
 
 footer{
-    background-color:#a8a7a4;
+    background-color:#fcb131;
     color:#fff;
-    height: 10vh;
-    /* padding:2% 0;  */
+    padding:2% 0;
     display:flex;
-    justify-content: space-around;
-    align-items:center;
-    
+    justify-content:space-between;
 }
 footer a{
     color:#fff;
-    
 }
 footer a:hover{
     color:#4f4f4f;
 }
 footer div{
-    width:10%;
+    width:30%;
+}
+nav.social{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10%;
+}
+nav.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav.main a{
+    margin: 2% 0;
+}
+.copyright{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
 }
 
 /*Media Queries*/
