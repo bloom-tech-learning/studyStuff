@@ -49,3 +49,6 @@
 [submodule "samples/farm-to-table-practice-project"]
 	path = samples/farm-to-table-practice-project
 	url = git@github.com:BrityHemming/farm-to-table-practice-project.git
+[submodule "Materials/JavaScript30"]
+	path = Materials/JavaScript30
+	url = git@github.com:wesbos/JavaScript30.git
