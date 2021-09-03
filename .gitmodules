@@ -46,3 +46,6 @@
 [submodule "Module_112/Git-for-Web-Development-Project"]
 	path = Module_112/Git-for-Web-Development-Project
 	url = git@github.com:LambdaSchool/Git-for-Web-Development-Project.git
+[submodule "samples/farm-to-table-practice-project"]
+	path = samples/farm-to-table-practice-project
+	url = git@github.com:BrityHemming/farm-to-table-practice-project.git
