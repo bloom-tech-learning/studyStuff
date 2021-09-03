@@ -31,3 +31,6 @@
 [submodule "Sprint_112/web-sprint-challenge-advanced-css-and-intro-js"]
 	path = Sprint_112/web-sprint-challenge-advanced-css-and-intro-js
 	url = git@github.com:LambdaSchool/web-sprint-challenge-advanced-css-and-intro-js.git
+[submodule "Sprint_12/web-sprint-challenge-advanced-css-and-intro-js"]
+	path = Sprint_12/web-sprint-challenge-advanced-css-and-intro-js
+	url = git@github.com:LambdaSchool/web-sprint-challenge-advanced-css-and-intro-js.git
