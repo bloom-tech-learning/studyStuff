@@ -22,3 +22,9 @@
 [submodule "References/FullStackWeb"]
 	path = References/FullStackWeb
 	url = git@github.com:sooof/FullStackWeb.git
+[submodule "web-Sprint-Challenge-User-Interface-and-Git"]
+	path = web-Sprint-Challenge-User-Interface-and-Git
+	url = git@github.com:LambdaSchool/web-Sprint-Challenge-User-Interface-and-Git.git
+[submodule "sprint_1/web-Sprint-Challenge-User-Interface-and-Git"]
+	path = sprint_1/web-Sprint-Challenge-User-Interface-and-Git
+	url = git@github.com:LambdaSchool/web-Sprint-Challenge-User-Interface-and-Git.git
