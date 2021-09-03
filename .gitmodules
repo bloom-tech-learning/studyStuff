@@ -28,3 +28,6 @@
 [submodule "sprint_1/web-Sprint-Challenge-User-Interface-and-Git"]
 	path = sprint_1/web-Sprint-Challenge-User-Interface-and-Git
 	url = git@github.com:LambdaSchool/web-Sprint-Challenge-User-Interface-and-Git.git
+[submodule "Sprint_112/web-sprint-challenge-advanced-css-and-intro-js"]
+	path = Sprint_112/web-sprint-challenge-advanced-css-and-intro-js
+	url = git@github.com:LambdaSchool/web-sprint-challenge-advanced-css-and-intro-js.git
