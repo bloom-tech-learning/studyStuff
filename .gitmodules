@@ -40,3 +40,6 @@
 [submodule "Module_113/web-module-project-intro-css"]
 	path = Module_113/web-module-project-intro-css
 	url = git@github.com:LambdaSchool/web-module-project-intro-css.git
+[submodule "Module_114/User-Interface-II"]
+	path = Module_114/User-Interface-II
+	url = git@github.com:beatlesm/User-Interface-II.git
