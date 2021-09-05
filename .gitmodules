@@ -55,3 +55,6 @@
 [submodule "Module_121/Responsive-Design"]
 	path = Module_121/Responsive-Design
 	url = git@github.com:LambdaSchool/Responsive-Design.git
+[submodule "Module_122/Introduction-to-JavaScript"]
+	path = Module_122/Introduction-to-JavaScript
+	url = git@github.com:LambdaSchool/Introduction-to-JavaScript.git
