@@ -52,3 +52,6 @@
 [submodule "Materials/JavaScript30"]
 	path = Materials/JavaScript30
 	url = git@github.com:wesbos/JavaScript30.git
+[submodule "Module_121/Responsive-Design"]
+	path = Module_121/Responsive-Design
+	url = git@github.com:LambdaSchool/Responsive-Design.git

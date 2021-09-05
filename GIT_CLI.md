@@ -48,3 +48,8 @@ git push origin --delete remoteBranchName
 git branch --r -l
 
 ```
+
+## to make fancy Terminal on macos
+```sh
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
