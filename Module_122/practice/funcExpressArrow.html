@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Variables!</title>
+  <link rel="stylesheet" href="../base.css">
+</head>
+
+<body>
+  <script>
+
+    function flip() {
+        for (let  i = 0; i <5; i++) {
+            var coinFlip = Math.round (Math.random());
+            if (coinFlip === 1){
+                console.log ('Head');
+            } else {
+                console.log('Tails');
+            }
+        }
+    }
+
+    flip();
+    
+    // This code is valid above the definition!
+    console.log(add(2,4)) // 6
+
+    function add(a,b){
+    console.log(a + b);
+    }
+    console.log(add);
+    //   Function Expressions 
+    const add1 = function(a,b){
+    console.log(a + b);
+    }
+    add1(2,5) // 7
+    console.log(add1);
+    console.log(add1(2, 6));
+    typeof add1;
+    typeof add1(4, 5);    
+
+    // function expression syntax
+    // const add = function(a,b) {
+    //  console.log a + b;
+    // }
+
+    // arrow function expression syntax
+    const add2 = (a,b) => {
+    console.log(a + b);
+    }
+    add2(2,4) // 6
+
+    // streamlined arrow syntax
+    const add3 = (a,b) => console.log(a + b);
+
+    add3(2,4); // 6
+
+    // There is a time and place for arrow functions. Here is a list of times you should not be using them:
+
+    //     Event handlers (Unless they are inside a class constructor!)
+    //     Object methods
+    //     Prototype methods
+    //     Anytime you need to use arguments Object
+
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
