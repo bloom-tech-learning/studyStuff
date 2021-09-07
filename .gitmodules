@@ -61,3 +61,6 @@
 [submodule "Tools/normalize.css"]
 	path = Tools/normalize.css
 	url = git@github.com:necolas/normalize.css.git
+[submodule "Module_123/web-module-challenge-arrays"]
+	path = Module_123/web-module-challenge-arrays
+	url = git@github.com:LambdaSchool/web-module-challenge-arrays.git
