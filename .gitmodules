@@ -58,3 +58,6 @@
 [submodule "Module_122/Introduction-to-JavaScript"]
 	path = Module_122/Introduction-to-JavaScript
 	url = git@github.com:LambdaSchool/Introduction-to-JavaScript.git
+[submodule "Tools/normalize.css"]
+	path = Tools/normalize.css
+	url = git@github.com:necolas/normalize.css.git
