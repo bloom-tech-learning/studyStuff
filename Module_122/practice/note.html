@@ -71,7 +71,108 @@
 
     // underfined and null
     // null is like the concept of nothing
+    // underfined is like the concept of "i donot know"
+    let val1 = null;
+    let val2 = undefined; ??????
 
+    const arr = [0, 1];
+    console.log(arr[2]); //undefined
+
+    const arr = [0, 1];
+
+    for (let i=0; i < arr.length; i++) {
+        if (arr[i]= null) {
+            console.log(-1);
+        }else console.log(arr[i]);
+    }
+
+    const newArr = arr.filter((item) => item !== null);
+    console.log(newArr);
+
+    // while (true === true) {
+    //     console.log('Hello Word!');
+    // }
+
+    // Math Stuff
+    // regular math operator work the same in JS. 
+    // + - * /
+    // moudle : %
+    const mod = 4%3;
+    console.log(mod);
+
+    console.log(Math);
+
+    // first argument is the number you're rasing
+    // second argument is the power of exponent
+
+    // round down to the nearest whole number 
+    Math.floor(2.33);
+
+    // truthiness
+
+    // value that evaluate as false 
+    false
+    0
+    undefined
+    null
+    ..
+
+    // comparison and logical operator
+    // > < >= <= work as expect
+    // == vs === 
+    // does not care about type
+
+    if (true == 'true') {
+        console.log('it is true');
+    } else console.log('it is not true');
+
+    if (3 == '3') {
+        console.log('it is true');
+    }else console.log('it is not true');
+
+    // && means add
+    // || means or 
+    // ! means not 
+
+
+    if (true == 'true' && false == fasle) {
+        console.log('it is true');
+    } else console.log('it is not true');
+
+    if (true === true && false === false) {
+        console.log('it is true');
+    } else console.log('it is not true');
+
+
+    // if statement has a test in the param 
+    if (name == 'geng') {
+        console.log (`hello Mr ${name}`)
+    } else {
+        consle.log('No: Name');
+    }
+
+    // swithch
+
+    // write for and while loop
+
+    for (let i = 0; i < 10 ; i++) {
+        console.log(i);
+    }
+
+    // function
+    function hungryDog (age, weight){
+        if (age < 1 && weight < 5)
+        return weight*5;
+    } else if (age < 1){
+        return weight * .1;
+    }else {
+        return 'Please enter proper arguments'
+    }
+
+
+    console.log(hungryDog(0.5, 3));
+
+    function add ()
 
 
     // This code is valid above the definition!
@@ -119,6 +220,11 @@
     }
 
     myFunc(argument1, argument2);
+
+    // nmp extension ????????
+
+    // how to test JS in VS code?
+
 
   </script>
 </body>
