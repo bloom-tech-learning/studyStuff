@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>FlexBox Tutourial</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="/styles/base.css">
         <!-- Font families were utilized through google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Gaegu|Roboto" rel="stylesheet">
         <style>
@@ -17,54 +17,48 @@
 
         <script>
             
-            let magicalNumber = 7;
+            var comp = getComputerChoice();
+            console.log(comp);
 
-            //  Multiply by the month of your birth
 
-            magicalNumber = magicalNumber * 2;
+            function game(user, computer){
+            /*add your code here*/
+                
+                computer = comp;
 
-            // Subtract 1
+                if (user == computer) {
+                    return "it's a tie";
+                } else if (user == 'Rock' && computer == 'Paper') {
+                        return "you lose!";
+                } else if (user == 'Rock' && computer == 'Scissors') {
+                        return "you win!";
+                } else if (user == 'Paper' && computer == 'Scissors') {
+                        return "you lose!";
+                } else if (user == 'Paper' && computer == 'Rock') {
+                        return "you win!";
+                } else if (user == 'Scissors' && computer == 'Rock') {
+                        return "you lose!";
+                } else if (user == 'Scissors' && computer == 'Paper') 
+                    return "you win!";  
 
-            magicalNumber = magicalNumber -1;
+            }
 
-            // Multiple by 13
+            function getComputerChoice(){
+            const randomNumber = (Math.floor(Math.random() * 3));
+            if (randomNumber === 0){
+                return 'Rock';
+            }
+            else if (randomNumber === 1){
+                return 'Paper';
+            }
+            else if (randomNumber === 2){
+            return 'Scissors';
+            }
+            }
 
-            magicalNumber = magicalNumber * 13;
+            console.log(game('Rock', 'Paper'));
+
             
-            // Add the day of your birth
-
-            magicalNumber = magicalNumber + 22;
-
-            // Add 3
-
-            magicalNumber = magicalNumber + 3;
-
-            // Multiple by 11
-
-            magicalNumber = magicalNumber * 11;
-
-            // Subtract the month of your birth
-
-            magicalNumber = magicalNumber -2
-
-
-            // Subtract the day of your birth
-
-            magicalNumber = magicalNumber -22;
-
-            // Divide by 10
-
-            magicalNumber = magicalNumber /10;
-
-            // Add 11
-
-            magicalNumber = magicalNumber +11;
-
-            // Divide by 100
-
-            magicalNumber = magicalNumber /100;
-
-            console.log(magicalNumber);
 
 
 
