@@ -67,3 +67,9 @@
 [submodule "Module_124/web-module-challenge-objects"]
 	path = Module_124/web-module-challenge-objects
 	url = git@github.com:LambdaSchool/web-module-challenge-objects.git
+[submodule "Javascript-Array-cheatsheet"]
+	path = Javascript-Array-cheatsheet
+	url = git@github.com:ayushgptaa/Javascript-Array-cheatsheet.git
+[submodule "Tools/Javascript-Array-cheatsheet"]
+	path = Tools/Javascript-Array-cheatsheet
+	url = git@github.com:ayushgptaa/Javascript-Array-cheatsheet.git
