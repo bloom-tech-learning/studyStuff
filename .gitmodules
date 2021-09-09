@@ -73,3 +73,6 @@
 [submodule "Tools/Javascript-Array-cheatsheet"]
 	path = Tools/Javascript-Array-cheatsheet
 	url = git@github.com:ayushgptaa/Javascript-Array-cheatsheet.git
+[submodule "Sprint_13/Sprint-Challenge--JavaScript"]
+	path = Sprint_13/Sprint-Challenge--JavaScript
+	url = git@github.com:LambdaSchool/Sprint-Challenge--JavaScript.git
