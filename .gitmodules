@@ -115,3 +115,6 @@
 [submodule "Module_13/Project3/JS-Exercise-Prototype"]
 	path = Module_13/Project3/JS-Exercise-Prototype
 	url = git@github.com:LambdaSchool/JS-Exercise-Prototype.git
+[submodule "Module_13/Project4/JS-Exercise-Classes"]
+	path = Module_13/Project4/JS-Exercise-Classes
+	url = git@github.com:LambdaSchool/JS-Exercise-Classes.git
