@@ -76,3 +76,9 @@
 [submodule "Sprint_13/Sprint-Challenge--JavaScript"]
 	path = Sprint_13/Sprint-Challenge--JavaScript
 	url = git@github.com:LambdaSchool/Sprint-Challenge--JavaScript.git
+[submodule "Module_13/web-module-challenge-scope-and-closure"]
+	path = Module_13/web-module-challenge-scope-and-closure
+	url = git@github.com:LambdaSchool/web-module-challenge-scope-and-closure.git
+[submodule "Module_13/Project1/web-module-challenge-scope-and-closure"]
+	path = Module_13/Project1/web-module-challenge-scope-and-closure
+	url = git@github.com:LambdaSchool/web-module-challenge-scope-and-closure.git
