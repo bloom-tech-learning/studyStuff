@@ -109,3 +109,6 @@
 [submodule "Module_11/Project2/Git-for-Web-Development-Project"]
 	path = Module_11/Project2/Git-for-Web-Development-Project
 	url = git@github.com:LambdaSchool/Git-for-Web-Development-Project.git
+[submodule "Module_13/Project2/Array-Methods-and-Callbacks"]
+	path = Module_13/Project2/Array-Methods-and-Callbacks
+	url = git@github.com:LambdaSchool/Array-Methods-and-Callbacks.git
