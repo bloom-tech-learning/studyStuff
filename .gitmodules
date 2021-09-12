@@ -88,3 +88,6 @@
 [submodule "Module_12/Project3/web-module-challenge-arrays"]
 	path = Module_12/Project3/web-module-challenge-arrays
 	url = git@github.com:LambdaSchool/web-module-challenge-arrays.git
+[submodule "Module_12/Project4/web-module-challenge-objects"]
+	path = Module_12/Project4/web-module-challenge-objects
+	url = git@github.com:LambdaSchool/web-module-challenge-objects.git
