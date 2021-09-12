@@ -85,3 +85,6 @@
 [submodule "Module_12/Project2/Introduction-to-JavaScript"]
 	path = Module_12/Project2/Introduction-to-JavaScript
 	url = git@github.com:LambdaSchool/Introduction-to-JavaScript.git
+[submodule "Module_12/Project3/web-module-challenge-arrays"]
+	path = Module_12/Project3/web-module-challenge-arrays
+	url = git@github.com:LambdaSchool/web-module-challenge-arrays.git
