@@ -82,3 +82,6 @@
 [submodule "Module_13/Project1/web-module-challenge-scope-and-closure"]
 	path = Module_13/Project1/web-module-challenge-scope-and-closure
 	url = git@github.com:LambdaSchool/web-module-challenge-scope-and-closure.git
+[submodule "Module_12/Project2/Introduction-to-JavaScript"]
+	path = Module_12/Project2/Introduction-to-JavaScript
+	url = git@github.com:LambdaSchool/Introduction-to-JavaScript.git
