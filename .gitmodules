@@ -118,3 +118,6 @@
 [submodule "Module_13/Project4/JS-Exercise-Classes"]
 	path = Module_13/Project4/JS-Exercise-Classes
 	url = git@github.com:LambdaSchool/JS-Exercise-Classes.git
+[submodule "Module_13/Sprint3/Sprint-Challenge--JavaScript"]
+	path = Module_13/Sprint3/Sprint-Challenge--JavaScript
+	url = git@github.com:LambdaSchool/Sprint-Challenge--JavaScript.git
