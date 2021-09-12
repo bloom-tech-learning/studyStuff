@@ -112,3 +112,6 @@
 [submodule "Module_13/Project2/Array-Methods-and-Callbacks"]
 	path = Module_13/Project2/Array-Methods-and-Callbacks
 	url = git@github.com:LambdaSchool/Array-Methods-and-Callbacks.git
+[submodule "Module_13/Project3/JS-Exercise-Prototype"]
+	path = Module_13/Project3/JS-Exercise-Prototype
+	url = git@github.com:LambdaSchool/JS-Exercise-Prototype.git
