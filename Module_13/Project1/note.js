@@ -111,7 +111,6 @@ const
 //   return 'its working!';
 // }
 
-
 // console.log(working());
 // // arrow function - NOT HOISTED! 
 
@@ -124,10 +123,8 @@ const
 
 // Hoisting not great practice but some devs set up their files like this 
 
-
 // what this file does 
 // invoke all functions 
-
 
 // how this file does it 
 // write all functions 
@@ -137,8 +134,6 @@ const
 // code that has been identified elsewhere that we can use later 
 // we can pass variables down but not back up 
 // when a function reaches into it's outer scope to grab a value defined elsewhere
-
-
 
 // function country(countryName){
 //   const lang1 = 'French';
@@ -158,7 +153,6 @@ const
 //   province('Ontario');
 // }// this closes the function of country
 // country('Canada');
-
 
 // A closure happens when a inner function reaches into an outer function to grab a value defined in the outer function 
 
@@ -187,7 +181,6 @@ console.log(tennis());
 
 // closures are the ability for a child function to access variables from a higher level scope even after the variables have been called or closed or terminated 
 
-
 // Callback Functions VS Higher Order Functions 
 // Higher Order Functions - receive other functions as parameters 
 // callback functions - are passed into other functions as arguments 
@@ -211,15 +204,11 @@ console.log(kitchen('sauce', 'dough', pizzaChef));
 
 console.log(kitchen('sauce', 'dough', pastaChef));
 
-
-
 // create a score function that will return a random number between 0 and 5
 
 function score(){
     return Math.floor(Math.random() * 6);
   }
-  
-  
   
   // create a hockey game function that takes score as a callback and returns a score for a home team and away team in the form of an object 
   function hockeyGame(scorecb){
@@ -230,10 +219,7 @@ function score(){
   }
   
   console.log(hockeyGame(score)); // line 33 in the function below
-  
-  
-  
-  
+   
   // create a function called totalGameScore - it should take score and hockeyGame as callbacks and it should return an array with the score for each period as a string `Period #: Away: score - Home: score`
   
   function totalGameScore(scorecb, gamecb){
