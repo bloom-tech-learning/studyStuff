@@ -195,7 +195,9 @@ const spook2 = new BabyPet(babyPetAttrs);
 const spook3 = new BabyPet(babyPetAttrs);
 const spook4 = new BabyPet(babyPetAttrs);
 // console.log(spook1);
+
 console.log(BabyPet.prototype.constructor)
+
 // function BabyPet(babyAttr) {
 //   Pet.call(this, babyAttr);
 //   // this is equivalent ^
@@ -219,3 +221,48 @@ class Pet {
     return `${this.name} says ${this.phrase}.`;
   }
 }
+
+// extends keyword replaces the Object.create() part
+// gets whatever methods are on the parent class
+class BabyPet extends Pet {
+  constructor(babyAttrs) {
+    // super replaces Pet.call()
+    // takes all the attributes from our parent class and copies them here
+    super(babyAttrs);
+    this.favToy = babyAttrs.favToy;
+  }
+  
+  // methods go here
+  play() {
+    return `${this.name} likes to play with ${this.favToy}.`
+  }
+}
+
+class GrandBabyPet extends BabyPet {
+  constructor(gBabyAttrs) {
+    super(gBabyAttrs);
+    this.bottle = gBabyAttrs.bottle;
+  }
+  
+  // methods
+  isBottlefed() {
+    return this.bottle;
+  }
+}
+
+const whatever = {
+  name: 'Lilly',
+  owner: 'Keiran',
+  phrase: 'bark bark',
+  favToy: 'ball'
+}
+const lilly = new BabyPet(whatever);
+
+console.log(lilly);
+console.log(lilly.speak());
+console.log(lilly.play());
+
+// make a GrandBabyPet class
+// deriving from both BabyPet and Pet
+// add one new property and one new method
+
