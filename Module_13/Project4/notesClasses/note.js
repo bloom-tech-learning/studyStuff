@@ -52,7 +52,7 @@ const mappedObjArr = objArr.map((obj) => {
 });
 
 // console.log(mappedArr);
-console.log(mappedObjArr);
+// console.log(mappedObjArr);
 
 const filteredArr = arr.filter((num, index, array) => {
   return num % 2 === 0;
@@ -71,4 +71,88 @@ const reducedArr = arr.reduce((accumulator, current) => {
 
 arr.forEach((num, index, array) => {
   // console.log(num);
+  // num * 10;
 });
+
+// objects
+const obj = {
+  name: 'Keiran',
+  city: 'Gainesville',
+  previousCities: [
+    {
+      id: 1,
+      name: 'Nashua',
+      funStuff: [
+        {
+          id: 1,
+          name: 'The Faire'
+        },
+        {
+          id: 2,
+          name: 'Forest walks'
+        },
+        {
+          id: 3,
+          name: 'Dog walking'
+        },
+      ]
+    },
+    {
+      id: 2,
+      name: 'Cape',
+      funStuff: [
+        {
+          id: 1,
+          name: 'The Faire'
+        },
+        {
+          id: 2,
+          name: 'Forest walks'
+        },
+        {
+          id: 3,
+          name: 'Dog walking'
+        },
+      ]
+    },
+    {
+      id: 3,
+      name: 'Orlando',
+      funStuff: [
+        {
+          id: 1,
+          name: 'The Faire'
+        },
+        {
+          id: 2,
+          name: 'Forest walks'
+        },
+        {
+          id: 3,
+          name: 'Dog walking'
+        },
+      ]
+    }
+  ],
+  address: {
+    number: 123,
+    street: 'Main St'
+  }
+};
+// console.log(obj.previousCities[0].funStuff[0]);
+
+// Constructors
+function Pet(attr) {
+  this.name = attr.name;
+  this.owner = attr.owner;
+  this.phrase = attr.phrase;
+}
+
+const attributes = {
+  name: 'Lilly',
+  owner: 'Keiran',
+  phrase: 'bark bark'
+}
+const lilly = new Pet({});
+console.log(lilly);
+
