@@ -2,6 +2,7 @@
 // scope answers the question of where are my functions and variable available to me
 
 // Global variables - available anywhere in your program
+
 const cohort = 'web48';
 
 // let and const can be global within your program but var is the only variable declearation attached the window object 
@@ -211,13 +212,14 @@ function score(){
   }
   
   // create a hockey game function that takes score as a callback and returns a score for a home team and away team in the form of an object 
+  /* 
   function hockeyGame(scorecb){
     return {
       Home: scorecb(),
       Away: scorecb()
     }
   }
-  
+   */
   console.log(hockeyGame(score)); // line 33 in the function below
    
   // create a function called totalGameScore - it should take score and hockeyGame as callbacks and it should return an array with the score for each period as a string `Period #: Away: score - Home: score`
