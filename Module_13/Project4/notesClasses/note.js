@@ -143,16 +143,79 @@ const obj = {
 
 // Constructors
 function Pet(attr) {
-  this.name = attr.name;
-  this.owner = attr.owner;
-  this.phrase = attr.phrase;
+  this.name = attr.name || '';
+  this.owner = attr.owner || '';
+  this.phrase = attr.phrase || '';
 }
 
-const attributes = {
+// Prototypes
+// see param and arg in invocation
+Pet.prototype.speak = function(term) {
+  return `${this.name} says ${term}.`;
+};
+
+// Inheritance
+// make a new constructor for BabyPet that derives from Pet
+// should have all the same properties as Pet as well as favToy
+// should have all the same prototype methods as Pet as well as play
+function BabyPet(babyAttr) {
+  Pet.call(this, babyAttr);
+  // this is equivalent ^
+  // this.name = attr.name || '';
+  // this.owner = attr.owner || '';
+  // this.phrase = attr.phrase || '';
+  this.favToy = babyAttr.favToy;
+}
+
+// console.log(Pet.prototype);
+BabyPet.prototype = Object.create(Pet.prototype);
+BabyPet.prototype.play = function() {
+  return `${this.name} likes to play with ${this.favToy}.`;
+}
+
+
+const whatever = {
   name: 'Lilly',
   owner: 'Keiran',
   phrase: 'bark bark'
 }
-const lilly = new Pet({});
-console.log(lilly);
+const lilly = new Pet(whatever);
 
+// console.log(lilly);
+// console.log(lilly.speak('I am a dog'));
+
+const babyPetAttrs = {
+  name: 'Spook',
+  owner: 'Keiran',
+  phrase: 'meow',
+  favToy: 'sparkly plastic thing'
+}
+const spook1 = new BabyPet(babyPetAttrs);
+const spook2 = new BabyPet(babyPetAttrs);
+const spook3 = new BabyPet(babyPetAttrs);
+const spook4 = new BabyPet(babyPetAttrs);
+// console.log(spook1);
+console.log(BabyPet.prototype.constructor)
+// function BabyPet(babyAttr) {
+//   Pet.call(this, babyAttr);
+//   // this is equivalent ^
+//   // this.name = attr.name || '';
+//   // this.owner = attr.owner || '';
+//   // this.phrase = attr.phrase || '';
+//   this.favToy = babyAttr.favToy;
+// }
+
+// Classes
+class Pet {
+  constructor(attrs) {
+    // properties go here
+    this.name = attrs.name;
+    this.owner = attrs.owner;
+    this.phrase = attrs.phrase;
+  }
+  
+  // methods go here
+  speak() {
+    return `${this.name} says ${this.phrase}.`;
+  }
+}
